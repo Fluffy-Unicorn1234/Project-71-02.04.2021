@@ -1,0 +1,62 @@
+body{
+    text-align:center;
+}
+.line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
+.campus_mainDiv{
+    float:left;
+    width:33.33%;
+    padding:5px;
+    border:1px solid #c7c7c7;
+}
+.campus_mainDiv img{
+    width:100%;
+    height:300px;
+}
+.campus_mainDiv hr{
+    width:100px;
+}
+.campus_mainDiv h5, .campus_mainDiv p{
+    margin-left:20px;
+}
+row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+#achievementsID{
+    padding-bottom:10px;
+}
+.movie_head{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius:10px;
+    margin-bottom:15px;
+    width:100%;
+    display:inline-block;
+}
+.movie-head i{
+    float:right;
+}
+.movie_text span{
+    color:#ff7700
+}
+.whatsnew_li{
+    margin-top:13px;
+}
+.whatsnew.l1 h4{
+    border-bottom:1px solid white;
+    padding:8px;
+}
+.whatsnew li img{
+    border-radius:25px;
+    height:100px;
+    width:50px;
+}
+whatsnew.li p{
+    margin-top:10px;
+}
